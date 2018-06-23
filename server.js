@@ -10,7 +10,7 @@ const app = express();
 const users = require('./routes/api/userApiRoutes');
 
 // Body parser middleware
-app.use(bodyParser.urlencoded({ extended: false}));
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 //DB Config
